@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Modak|Open+Sans|Raleway&display=swap');
 
 body {
   background-color: #F3F3F3;
@@ -10,7 +10,7 @@ body {
 
 h1 {
   font-family: 'Fjalla One', sans-serif;
-  color: red;
+  color: #594157;
   font-weight: 300px;
   font-size: 40px;
 }
@@ -20,6 +20,13 @@ h2 {
   font-weight: 300px;
   font-size: 24px;
 }
+
+h3 {
+    font-family: font-family: 'Modak', cursive;
+    font-size : 30px;
+    color: #594157;
+}
+
 
 a {
   color:#594157;
@@ -60,6 +67,17 @@ a:hover {
   margin: 10px 0px;
   text-align: center;
 }
+
+.card-video {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+
 
 .list-inline > li {
   display: inline-block;
