@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans|Raleway&display=swap');
 
 body {
   background-color: #F3F3F3;
+  color: rgba(150,150,150,1);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
 
 h1 {
-  font-family: 'Raleway';
-  color: 'black';
+  font-family: 'Fjalla One', sans-serif;
+  color: #594157;
   font-weight: 300px;
   font-size: 40px;
 }
 
 h2 {
-  font-family: 'Raleway';
+  font-family: 'Fjalla One', sans-serif;
   font-weight: 300px;
   font-size: 24px;
 }
 
 a {
-  color:#DA552F;
+  color:#594157;
   text-decoration: none;
 }
 
@@ -30,7 +31,7 @@ a:hover {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 600px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -46,8 +47,17 @@ a:hover {
   background-color: white;
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
+  border-radius: 8px;
   margin: 20px 0px;
+  text-align: center;
+}
+
+.card-footer {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 10px 0px;
   text-align: center;
 }
 
@@ -59,6 +69,14 @@ a:hover {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  font-size: 40px;
+}
+
+.btn {
+    background-color: #A0D2DB;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
 }
 
 @media (max-width: 960px) {
