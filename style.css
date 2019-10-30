@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-    font-family: font-family: 'Modak', cursive;
+    font-family: 'Modak', cursive;
     font-size : 30px;
     color: #594157;
 }
@@ -77,6 +77,10 @@ a:hover {
   text-align: center;
 }
 
+.card-video h1 {
+  font-family: 'Modak', cursive;
+  font-weight: lighter;
+}
 
 
 .list-inline > li {
